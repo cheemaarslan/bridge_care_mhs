@@ -1,0 +1,73 @@
+.Normal{
+    background-color: #75a832;
+    display: inline-block;
+    padding: .45em .75em;
+    font-size: .75em;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+.Elevated{
+    background-color: #fbe202;
+    display: inline-block;
+    padding: .45em .75em;
+    font-size: .75em;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+.Stage-1{
+    background-color: #fbe202;
+    display: inline-block;
+    padding: .45em .75em;
+    font-size: .75em;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+.Stage-2{
+    background-color: #eaa80f ;
+    display: inline-block;
+    padding: .45em .75em;
+    font-size: .75em;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+.Crisis{
+    background-color: #fb1031 ;
+    display: inline-block;
+    padding: .45em .75em;
+    font-size: .75em;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+.footer {
+    position: fixed;
+    background: #ffffff !important;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e9ecef !important;
+    text-align: left !important;
+    padding: 5px 5px !important;
+}
+
+#main-wrapper[data-layout="horizontal"][data-boxed-layout="boxed"] .top-navbar, #main-wrapper[data-layout="horizontal"][data-boxed-layout="boxed"] .scroll-sidebar, #main-wrapper[data-layout="horizontal"][data-boxed-layout="boxed"] .page-wrapper{
+    max-width: auto !important;
+}

@@ -1,0 +1,38 @@
+<?php
+
+namespace App\Console;
+
+use Illuminate\Console\Scheduling\Schedule;
+use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
+
+class Kernel extends ConsoleKernel
+{
+    /**
+     * Define the application's command schedule.
+     *
+     * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
+     * @return void
+     */
+    protected function schedule(Schedule $schedule)
+    {
+        // Safety net — runs every 5 minutes during US working hours only
+        // Catches anything the observers missed
+        $schedule->command('rpm:update-summary')
+            ->everyFiveMinutes()
+            ->between('7:00', '20:00')
+            ->withoutOverlapping()
+            ->runInBackground();
+
+        $schedule->command('rpm:update-summary')
+            ->dailyAt('02:00')
+            ->withoutOverlapping()
+            ->runInBackground();
+    }
+
+    protected function commands()
+    {
+        $this->load(__DIR__ . '/Commands');
+
+        require base_path('routes/console.php');
+    }
+}

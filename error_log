@@ -1,0 +1,20 @@
+[08-May-2025 03:16:27 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 3221225472 bytes exhausted (tried to allocate 335544320 bytes) in phar:///usr/local/bin/composer1.phar/src/Composer/DependencyResolver/RuleSet.php on line 90
+[08-May-2025 03:29:47 America/Los_Angeles] PHP Warning:  require(/home/u215086974/domains/mhs-usa.net/public_html/vendor/composer/../../App/Helper/Helper.php): Failed to open stream: No such file or directory in /home/u215086974/domains/mhs-usa.net/public_html/vendor/composer/autoload_real.php on line 69
+[08-May-2025 03:29:47 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u215086974/domains/mhs-usa.net/public_html/vendor/composer/../../App/Helper/Helper.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u215086974/domains/mhs-usa.net/public_html/vendor/composer/autoload_real.php:69
+Stack trace:
+#0 /home/u215086974/domains/mhs-usa.net/public_html/vendor/composer/autoload_real.php(59): composerRequire9fcde3fb1ceac4a6cd3af18e403327ef()
+#1 /home/u215086974/domains/mhs-usa.net/public_html/vendor/autoload.php(7): ComposerAutoloaderInit9fcde3fb1ceac4a6cd3af18e403327ef::getLoader()
+#2 /home/u215086974/domains/mhs-usa.net/public_html/artisan(18): require('/home/u21508697...')
+#3 {main}
+  thrown in /home/u215086974/domains/mhs-usa.net/public_html/vendor/composer/autoload_real.php on line 69
+[08-May-2025 03:45:18 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 3221225472 bytes exhausted (tried to allocate 335544320 bytes) in phar:///usr/local/bin/composer1.phar/src/Composer/DependencyResolver/RuleSet.php on line 90
+[08-May-2025 03:49:04 America/Los_Angeles] PHP Warning:  require(/home/u215086974/domains/mhs-usa.net/public_html/vendor/composer/../../App/Helper/Helper.php): Failed to open stream: No such file or directory in /home/u215086974/domains/mhs-usa.net/public_html/vendor/composer/autoload_real.php on line 69
+[08-May-2025 03:49:04 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u215086974/domains/mhs-usa.net/public_html/vendor/composer/../../App/Helper/Helper.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u215086974/domains/mhs-usa.net/public_html/vendor/composer/autoload_real.php:69
+Stack trace:
+#0 /home/u215086974/domains/mhs-usa.net/public_html/vendor/composer/autoload_real.php(59): composerRequire9fcde3fb1ceac4a6cd3af18e403327ef()
+#1 /home/u215086974/domains/mhs-usa.net/public_html/vendor/autoload.php(7): ComposerAutoloaderInit9fcde3fb1ceac4a6cd3af18e403327ef::getLoader()
+#2 /home/u215086974/domains/mhs-usa.net/public_html/artisan(18): require('/home/u21508697...')
+#3 {main}
+  thrown in /home/u215086974/domains/mhs-usa.net/public_html/vendor/composer/autoload_real.php on line 69
+[08-May-2025 04:23:21 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 3221225472 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer1.phar/src/Composer/DependencyResolver/Solver.php on line 223
+[08-May-2025 04:51:52 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 3221225472 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer1.phar/src/Composer/DependencyResolver/Solver.php on line 223
